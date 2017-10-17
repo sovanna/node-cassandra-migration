@@ -1,3 +1,6 @@
+# :warning: Updates for ScyllaDB
+
+### Source from [https://github.com/joeledwards/node-cassandra-migration](https://github.com/joeledwards/node-cassandra-migration)
 
 Cassandra Migration
 ===========
@@ -10,7 +13,7 @@ Installation
 ============
 
 ```bash
-npm install --save cassandra-migration
+npm install --save scylla-migration
 ```
 
 
@@ -22,7 +25,7 @@ By default the script will look for a file named migrate.json
 Run the script
 
 ```bash
-cassandra-migration migrate.json
+scylla-migration migrate.json
 ```
 
 Config File

@@ -1,7 +1,8 @@
 {
-  "name": "cassandra-migration",
-  "description": "Simple schema migration tool for Apache Cassandra",
+  "name": "scylla-migration",
+  "description": "Simple schema migration tool for ScyllaDB",
   "keywords": [
+    "ScyllaDB",
     "Cassandra",
     "Migration",
     "Schema"
@@ -9,11 +10,12 @@
   "version": "2.4.1",
   "author": "Joel Edwards (https://github.com/joeledwards)",
   "contributors": [
-    "Joel Edwards <joeledwards@gmail.com> (https://github.com/joeledwards)"
+    "Joel Edwards <joeledwards@gmail.com> (https://github.com/joeledwards)",
+    "Sovanna Hing <sovanna.hing@gmail.com> (https://github.com/sovanna)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/joeledwards/node-cassandra-migration.git"
+    "url": "https://github.com/sovanna/node-cassandra-migration.git"
   },
   "license": "MIT",
   "main": "./lib/index",
@@ -21,7 +23,7 @@
     "lib": "./lib"
   },
   "bin": {
-    "cassandra-migration": "./bin/cassandra-migration"
+    "scylla-migration": "./bin/scylla-migration"
   },
   "dependencies": {
     "cassandra-driver": "^3.0",
