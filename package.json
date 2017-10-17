@@ -23,7 +23,7 @@
     "lib": "./lib"
   },
   "bin": {
-    "scylla-migration": "./bin/scylla-migration"
+    "cassandra-migration": "./bin/cassandra-migration"
   },
   "dependencies": {
     "cassandra-driver": "^3.0",
